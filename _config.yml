@@ -1,6 +1,6 @@
 name: Robert Bussell
 markdown:           kramdown
-theme:              minima
+theme:              jekyll-theme-time-machine
 paginate:           5
 
 highlighter:        rouge
