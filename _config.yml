@@ -1,5 +1,14 @@
 name: Robert Bussell
-markdown: kramdown
-theme: minima
+markdown:           kramdown
+theme:              minima
+paginate:           5
+
+highlighter:        rouge
+plugins:            [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:		           "DataScience"
+description:	       "Create my publication"
+author: "Mulaab"
 
 permalink: /blog/:year/:month/:day/:title
